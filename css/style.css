@@ -12,14 +12,21 @@
     display: flex;
     flex-direction: column;
 }
+.flex-center{
+    align-items: center;
+}
 .margin-tb{
     margin: 20px 0;
 }
 .margin-rl{
     margin: 0px 20px;
 }
+
 .width-70{
-    width: 70%;
+    width: 75%;
+}
+.width-25{
+    width: 25%;
 }
 h1{
     font-size: 3rem;
@@ -31,6 +38,9 @@ h1{
 }
 .text-color-main{
     color: #292841;
+}
+.text-align-end{
+    text-align: end;
 }
 .box-white{
     background-color: white;
@@ -147,20 +157,14 @@ main>section{
 }
 
 /* TODO Rimuovere dopo i contenuti*/
-main section div.blue-column,
-main section div.pink-column,
-main section div.big-column{
-    height: 500px;
-}
+
 
 main section div.blue-column{
-    background-color: #1c87f0;
     width: 75%;
     margin: 0 auto;
 }
 
 main section div.pink-column{
-    background-color: #f1b5c0;
     width: 25%;
 }
 
