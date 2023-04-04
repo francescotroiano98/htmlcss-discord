@@ -8,7 +8,12 @@
     display: flex;
     flex-direction: row;
 }
-
+.text-color{
+    color: white;
+}
+.space-around{
+    justify-content: space-around;
+}
 .margin-auto{
     margin: auto;
 }
@@ -54,6 +59,7 @@ header{
 
 header section.upper{
     height: 80px;
+    margin: 0px auto;
 }
 
 section.upper{
