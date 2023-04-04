@@ -103,7 +103,7 @@ header section.jumbotron{
     /* height: 550px; */
     padding: 4rem 0;
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 section.jumbotron .hero{
