@@ -87,7 +87,7 @@ section.upper nav {
 section.upper nav ul{
     list-style-type: none;
     padding: .5rem 1rem;
-    justify-content: center;
+    justify-content:space-around;
 }
 
 section.upper nav ul li{
@@ -102,12 +102,15 @@ header section.jumbotron{
     background-color: #00008a;
     /* height: 550px; */
     padding: 4rem 0;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
 }
 
 section.jumbotron .hero{
     background-color: #ed81ed;
     height: 400px;
     width: 75%;
+    
 }
 
 main>section{
