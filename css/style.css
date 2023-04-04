@@ -22,12 +22,15 @@
     width: 70%;
 }
 h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 25px;
 }
 .text-color{
     color: white;
     
+}
+.text-color-main{
+    color: #292841;
 }
 .box-white{
     background-color: white;
@@ -152,12 +155,13 @@ main section div.big-column{
 
 main section div.blue-column{
     background-color: #1c87f0;
-    width: 60%;
+    width: 75%;
+    margin: 0 auto;
 }
 
 main section div.pink-column{
     background-color: #f1b5c0;
-    width: 40%;
+    width: 25%;
 }
 
 main section div.big-column{
