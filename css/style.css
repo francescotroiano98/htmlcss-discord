@@ -11,6 +11,11 @@
 .text-color{
     color: white;
 }
+.box-white{
+    background-color: white;
+    width: fit-content;
+
+}
 .space-around{
     justify-content: space-around;
 }
@@ -69,7 +74,7 @@ section.upper{
 }
 
 section.upper>div{
-    width: 20%;
+    width: fit-content;
     padding: .5rem 1rem;
 }
 
