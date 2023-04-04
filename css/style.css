@@ -14,7 +14,9 @@
 .box-white{
     background-color: white;
     width: fit-content;
-
+}
+.box-radius{
+    border-radius: 20px;
 }
 .space-around{
     justify-content: space-around;
