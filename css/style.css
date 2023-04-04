@@ -8,12 +8,36 @@
     display: flex;
     flex-direction: row;
 }
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.margin-tb{
+    margin: 20px 0;
+}
+.margin-rl{
+    margin: 0px 20px;
+}
+.width-70{
+    width: 70%;
+}
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
 .text-color{
     color: white;
+    
 }
 .box-white{
     background-color: white;
-    width: fit-content;
+    padding: 0.7rem;
+}
+
+.box-darkgray{
+    background-color: #151424;
+    padding: 0.7rem;
+    
 }
 .box-radius{
     border-radius: 20px;
@@ -22,7 +46,7 @@
     justify-content: space-around;
 }
 .margin-auto{
-    margin: auto;
+    margin: 0 auto;
 }
 
 .height-100{
@@ -107,9 +131,11 @@ header section.jumbotron{
 }
 
 section.jumbotron .hero{
-    background-color: #ed81ed;
+    
     height: 400px;
-    width: 75%;
+    width: 55%;
+    text-align: center;
+    justify-content: center;
     
 }
 
