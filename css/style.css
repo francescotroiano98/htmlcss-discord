@@ -12,6 +12,9 @@
     display: flex;
     flex-direction: column;
 }
+.text-align-center{
+    text-align: center;
+}
 .flex-center{
     align-items: center;
 }
@@ -25,8 +28,14 @@
 .width-70{
     width: 75%;
 }
+.height-55{
+    height: 55%;
+}
 .width-25{
     width: 25%;
+}
+.height-22{
+    height: 22.5%;
 }
 h1{
     font-size: 3rem;
@@ -42,11 +51,17 @@ h1{
 .text-align-end{
     text-align: end;
 }
+.bold{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
 .box-white{
     background-color: white;
     padding: 0.7rem;
 }
-
+.box-violet{
+    background-color: #5865f2;
+}
 .box-darkgray{
     background-color: #151424;
     padding: 0.7rem;
@@ -54,6 +69,7 @@ h1{
 }
 .box-radius{
     border-radius: 20px;
+    padding: 0.7rem;
 }
 .space-around{
     justify-content: space-around;
@@ -69,6 +85,18 @@ h1{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+.container-small{
+    max-width: 880px;
+    margin: 0 auto;
+}
+.img-big{
+    width: 50%
+}
+.background-img{
+    background-image: url(../img/item4-big.svg);
+    background-size: cover;
+    background-position: center;
 }
 
 .dashed-border{
@@ -169,7 +197,7 @@ main section div.pink-column{
 }
 
 main section div.big-column{
-    background-color: #1e7b1e;
+   
     width: 100%;
     height: 800px;
 }
